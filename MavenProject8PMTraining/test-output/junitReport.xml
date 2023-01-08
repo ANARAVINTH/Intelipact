@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="13.555">
+<testcase classname="Validating the login functionality of an salesforce application" name="To Validate the login functionality with invalid user" time="12.81">
+<failure message="Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)&quot; because &quot;sheet&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given User navigates to Salesforce Application..............................passed
+When User Enters the username "Aravith" and password "123"..................failed
+And User clicks the login button............................................skipped
+Then User validates the error message.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "sheet" is null
+	at excelhandling.ExcelReader.readExcel(ExcelReader.java:25)
+	at stepdefinationfile.SalaforceValidationSteps.enterUserNamePassword(SalaforceValidationSteps.java:40)
+	at ✽.User Enters the username "Aravith" and password "123"(file:///D:/Selenium/WeekendTraing8PM/MavenProject8PMTraining/src/test/resources/featurefile/SalesForceLoginValidations.feature:6)
+]]></failure>
+</testcase>
+</testsuite>
